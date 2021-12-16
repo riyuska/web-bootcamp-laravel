@@ -25,6 +25,6 @@ Route::get('checkout', function () {
     return view('checkout');
 })->name('checkout');
 
-Route::get('success-checkout', function () {
+Route::get('success-checkout', function () {   //nama url
     return view('success_checkout');  //nama file blade  " success_checkout.blade.php
 })->name('success-checkout');          // untuk menaruh halaman link menuju ke halaman selanjutnya  # {{router('success-checkout')}}
